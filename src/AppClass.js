@@ -1,9 +1,12 @@
-import './App.css';
+import React, { Component } from 'react'
 
 
-function App() {
-  return (
-    <div>
+// you can even create a component with a class.
+
+export default class AppClass extends Component {
+  render() {
+    return (
+      <div>
     <header>
       <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt=""></img>
       <h3>Kalvium Education</h3>
@@ -19,7 +22,6 @@ function App() {
       </p>
     </div>
   </div>
-  );
+    )
+  }
 }
-
-export default App;
